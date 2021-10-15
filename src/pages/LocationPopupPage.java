@@ -12,9 +12,6 @@ public class LocationPopupPage extends BasicPage {
 		super(driver, wait, js);
 	}
 
-//	public WebElement getLocationField () {
-//		return driver.findElement(By.id("locality_keyword"));	
-//		}
 	public WebElement getLocationInHeader() {
 		return driver.findElement(By.xpath("/html/body/header/div/div/div/div/div"));
 	}

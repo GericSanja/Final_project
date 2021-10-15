@@ -44,5 +44,5 @@ public class ProfilePage extends BasicPage {
 	public WebElement getStateField() {
 		return driver.findElement(By.xpath("//*[@name='user_state_id']"));
 	}
-
+	
 }
